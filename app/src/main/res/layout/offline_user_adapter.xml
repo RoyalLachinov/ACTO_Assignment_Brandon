@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_marginEnd="18dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/offline_user_layout"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/offline_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tool:text = "name"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                />
+            <TextView
+                android:id="@+id/offline_username_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text = "userName"
+                android:textColor="@color/textColorBlack"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/offline_email_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text = "email"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorBlack"
+                />
+            <TextView
+                android:id="@+id/offline_phone_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text = "phone #"
+                android:textColor="@color/textColorBlack"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/offline_web_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text = "web site"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/textColorBlack"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.v7.widget.CardView>
